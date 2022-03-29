@@ -1,9 +1,26 @@
-<!-- Display the countdown timer in an element -->
+<head>
+<style>body {
+ background-color: darkorange;   
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 400%;
+    display: inline flex;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 36%;
+    margin-right: 20%;
+ color: aliceblue;   
+}</style>
+
+
+</head><!-- Display the countdown timer in an element -->
 <p id="demo"></p>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 30, 2022 00:01").getTime();
+var countDownDate = new Date("Apr 30, 2022, 00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
